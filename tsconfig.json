@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false
+    },
+    "include": [
+      "src/**/*",
+      "custom-typings/**/*",
+      "typings/**/*"
+     ],
+     "exclude": [
+         "node_modules",
+         "**/*.spec.ts"
+     ]
+}
