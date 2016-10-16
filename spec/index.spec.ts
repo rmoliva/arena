@@ -5,8 +5,5 @@ test('timing test', function (t: any) {
 
     t.equal(typeof Date.now, 'function');
     let start = Date.now();
-
-    setTimeout(function () {
-        t.equal(Date.now() - start, 100);
-    }, 100);
+    setTimeout(() => t.ok((Date.now() - start) > 100), 100);
 });
