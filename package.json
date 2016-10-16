@@ -10,6 +10,7 @@
   "author": "Roberto M. Oliva",
   "license": "MIT",
   "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0",
     "git-hooks": "^1.1.6",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.2",
@@ -19,5 +20,10 @@
   },
   "dependencies": {
     "ramda": "^0.22.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
